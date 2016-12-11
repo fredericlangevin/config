@@ -1,0 +1,15 @@
+[user]
+	name = Frederic Langevin\n
+	email = frederic.langevin@coopengo.com
+[alias]
+	co = checkout
+	d = diff
+	br = branch --all
+	ci = commit --verbose
+	st = status
+	gl = log --graph
+    l = log --color --graph --full-history --all --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date iso
+    mb = merge-base HEAD origin/master
+[core]
+	editor = gedit
+	excludesfile = /home/flangevin/.gitignore_global
