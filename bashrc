@@ -1,4 +1,6 @@
 export WORKON_HOME=/home/flangevin/virtual_env/
+source /usr/local/bin/virtualenvwrapper.sh
+
 source /etc/bash_completion
 shopt -s histappend
 export HISTSIZE=10000
